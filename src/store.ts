@@ -2,12 +2,13 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { Flashcard, FlashcardSet, StoreState } from './types';
 import { generateId } from './utils';
+import { defaultSets, defaultCards } from './defaultData';
 
 export const useStore = create<StoreState>()(
   persist(
     (set, get) => ({
-      sets: [],
-      cards: [],
+      sets: defaultSets,
+      cards: defaultCards,
 
       addSet: (title: string) => {
         const newSet: FlashcardSet = {
