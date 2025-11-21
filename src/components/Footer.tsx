@@ -5,11 +5,8 @@ export function Footer() {
         <p className="mb-3">
           © {new Date().getFullYear()} MCI Flashcard App
         </p>
-        <p className="mb-2">
-          <strong>Development:</strong> Daniel Lechner, Simon Pfitscher
-        </p>
         <p className="mb-4">
-          <strong>Project Team:</strong> Daniel Lechner, Simon Pfitscher, Lisa Gnant, Thomas Mußhauser, Nitesh Singh
+          Daniel Lechner, Simon Pfitscher, Lisa Gnant, Thomas Mußhauser, Nitesh Singh
         </p>
         <a
           href="https://github.com/daniel-lechner-edu/mci-ecollab-learn-app"

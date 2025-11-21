@@ -42,25 +42,34 @@ React-based flashcard application for creating and studying flashcards. Works en
 
 ## Installation
 
+1. Clone repository:
+```bash
+git clone https://github.com/daniel-lechner-edu/mci-ecollab-learn-app.git
+cd mci-ecollab-learn-app
+```
+
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-## Development
+## Running the App
 
+Start development server:
 ```bash
 npm start
 ```
 
-Opens app at http://localhost:3000
+App opens at http://localhost:3000
 
 ## Build
 
+Production build:
 ```bash
 npm run build
 ```
 
-Production build in `build/` directory.
+Creates optimized build in `build/` directory.
 
 ## Project Structure
 
